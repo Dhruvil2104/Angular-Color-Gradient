@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial";
+  font-size: 16px;
+}
+body > * {
+  padding: 0 10px;
+}
+.selectDimen {
+  margin-bottom: 20px;
+}
+#grid, #grid td, #grid th {
+  border: 1px solid #a03232;
+}
+#grid {
+  border-collapse: collapse;
+  font-size: 10px;
+}
+#grid td, #grid tr, #grid th {
+  min-height: 20px;
+  min-width: 20px;
+  padding: 4px 0;
+  line-height: 1.3;
+}
+/* .wrapper {
+    overflow-x: auto;
+} */
+.rowNum {
+  text-align: center;
+  font-weight: bold;
+}
+.cellNum {
+  color: #984444;
+  text-align: right;
+  font-size: 8px;
+}
